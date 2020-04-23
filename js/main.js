@@ -7,7 +7,7 @@ function carregarDados() {
   let xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    `http://chatbot-covid.mybluemix.net/chat?mensagem=${
+    `https://chatbot-covid.mybluemix.net/chat?mensagem=${
       input.value ? input.value : "sobre"
     }`
   );
