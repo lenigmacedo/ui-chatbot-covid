@@ -36,8 +36,7 @@ function criarDiv(texto, tipo) {
   var div = document.createElement("div");
   var img = document.createElement("img");
   var p = document.createElement("p");
-  p.textContent = texto;
-
+  p.innerText = texto;
   if (tipo == "me") {
     img.setAttribute("src", "images/user.png");
   } else {
